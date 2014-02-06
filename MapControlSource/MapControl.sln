@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapControl", "MapControl\MapControl.csproj", "{56460929-A44C-4210-A6D1-19BC3452CA43}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapControlTest", "Website\MapControlTest\", "{BCC27B2B-0C18-4358-8BA4-504094FCE33B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/MapControlTest"
+		Debug.AspNetCompiler.PhysicalPath = "Website\MapControlTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapControlTest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapControlTest"
+		Release.AspNetCompiler.PhysicalPath = "Website\MapControlTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapControlTest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53926"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56460929-A44C-4210-A6D1-19BC3452CA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56460929-A44C-4210-A6D1-19BC3452CA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56460929-A44C-4210-A6D1-19BC3452CA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56460929-A44C-4210-A6D1-19BC3452CA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC27B2B-0C18-4358-8BA4-504094FCE33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC27B2B-0C18-4358-8BA4-504094FCE33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC27B2B-0C18-4358-8BA4-504094FCE33B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC27B2B-0C18-4358-8BA4-504094FCE33B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
